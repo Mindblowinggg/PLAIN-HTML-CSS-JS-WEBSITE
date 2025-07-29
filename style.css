@@ -7,7 +7,7 @@
   font-family: "Kumbh Sans", sans-serif;
 }
 
-.hamburger{
+.hamburger {
   display: none;
 }
 
@@ -48,7 +48,7 @@
   font-size: 32px;
 }
 
-.heading_logo a{
+.heading_logo a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,7 +137,7 @@
     transition: all 2s ease;
     height: auto;
     z-index: -10;
-   
+
   }
 
   .navbar_menu.active {
@@ -173,18 +173,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width:60%;
+    width: 60%;
     height: 100%;
 
   }
 
-   .hamburger {
+  .hamburger {
     user-select: none;
     display: flex;
     padding: 10px 0px;
     padding-right: 10px;
-    position: relative; 
-    z-index: 100;      
+    position: relative;
+    z-index: 100;
   }
 
   .hamburger input {
@@ -223,4 +223,3 @@
   }
 
 }
-

@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 
 .services h1 {
@@ -80,23 +80,54 @@
   cursor: pointer;
 }
 
-/* @media (max-width:960px) {
+@media (min-width:400px) and (max-width:800px) {
 
   .services {
-    height: 1600px;
+    height: auto;
   }
 
   .services h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 12rem;
   }
 
-} */
+  .services_card,
+  .services_card:nth-child(2) {
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    max-width: 400px;
+    min-height: 350px ;
+    min-width:350px ;
+    background-position: center;
+  }
+
+  .services h2 {
+    position: absolute;
+    top: 190px;
+    z-index: 100;
+  }
+
+  .services p {
+    position: absolute;
+    top: 225px;
+    z-index: 100;
+  }
+
+  .services button {
+    position: absolute;
+    top: 255px;
+    z-index: 100;
+  }
+
+
+
+}
 
 @media (min-width:0px) and (max-width:400px) {
-  
+
   .services {
-    height: 1400px;
+    height: auto;
 
   }
 
