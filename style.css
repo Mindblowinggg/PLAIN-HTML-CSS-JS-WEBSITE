@@ -47,9 +47,16 @@
   -webkit-text-fill-color: transparent;
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   text-decoration: none;
   font-size: 32px;
+}
+
+.heading_logo a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar_menu {
