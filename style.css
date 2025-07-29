@@ -140,7 +140,7 @@
 
   .navbar_menu.active {
     display: grid;
-    background-color: #2e2d2d;
+    background-color: #000000;
     top: 100%;
     opacity: 1;
     transition: all 0.8s ease;
