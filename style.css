@@ -164,16 +164,16 @@
   }
 
   .navbar_btn {
-    padding: 30px;
+    padding: 32px;
   }
 
   .button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: 50px;
-    margin: 0;
+    width:60%;
+    height: 100%;
+
   }
 
    .hamburger {
