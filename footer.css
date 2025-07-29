@@ -189,7 +189,7 @@
 
   .footer_link-items h2 {
     font-size: 1.1rem; /* Even smaller heading for very small screens */
-    margin-bottom: 6px;
+    margin-bottom:16px;
   }
 
   .footer_link-items a {
