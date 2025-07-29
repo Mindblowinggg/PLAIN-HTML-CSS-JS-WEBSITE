@@ -180,6 +180,7 @@
 
    .hamburger {
     cursor: pointer;
+    user-select: none;
     display: flex;
     padding: 10px 0px;
     padding-right: 10px;
