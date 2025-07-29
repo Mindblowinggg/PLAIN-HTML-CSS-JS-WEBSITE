@@ -130,6 +130,10 @@
     font-size: 1.5rem;
     margin-top: 1rem;
   }
+
+   .main_btn::after {
+    display: none; 
+  }
 }
 
 @media (max-width:400px) {
@@ -142,7 +146,7 @@
     width: 100%;
     margin: 0 auto;
     height: auto;
-
+    padding: 0px 22px;
   }
 
   .main_content {
