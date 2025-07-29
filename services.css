@@ -1,0 +1,135 @@
+.services {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.services h1 {
+  background-color: #ff8177;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  background-size: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-align: center;
+}
+
+.services_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services_card {
+  margin: 1rem;
+  height: 500px;
+  width: 500px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(17, 17, 17, 0.6)100%), url(images/servicesimg1.jpg);
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.services_card:nth-child(2) {
+  margin: 1rem;
+  height: 500px;
+  width: 500px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(17, 17, 17, 0.6)100%), url(images/servicesimg2.jpg);
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.services h2 {
+  position: absolute;
+  top: 360px;
+  left: 30px;
+}
+
+.services p {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+
+.services button {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #f77062;
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.services_card:hover {
+  transform: scale(1.015);
+  transition: all 0.255s ease-in;
+  cursor: pointer;
+}
+
+/* @media (max-width:960px) {
+
+  .services {
+    height: 1600px;
+  }
+
+  .services h1 {
+    font-size: 2rem;
+    margin-top: 12rem;
+  }
+
+} */
+
+@media (min-width:0px) and (max-width:400px) {
+  
+  .services {
+    height: 1400px;
+
+  }
+
+  .services h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+
+  .services_card,
+  .services_card:nth-child(2) {
+    height: 350px;
+    width: 300px;
+    background-position: center;
+  }
+
+  .services h2 {
+    position: absolute;
+    top: 190px;
+    z-index: 100;
+  }
+
+  .services p {
+    position: absolute;
+    top: 225px;
+    z-index: 100;
+  }
+
+  .services button {
+    position: absolute;
+    top: 255px;
+    z-index: 100;
+  }
+
+
+}
