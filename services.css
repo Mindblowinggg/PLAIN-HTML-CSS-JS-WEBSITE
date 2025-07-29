@@ -10,6 +10,7 @@
   background-color: #ff8177;
   background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
   background-size: 100%;
+  user-select: none;
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 2.5rem;
@@ -52,11 +53,13 @@
   position: absolute;
   top: 360px;
   left: 30px;
+  user-select: none;
 }
 
 .services p {
   position: absolute;
   top: 400px;
+  user-select: none;
   left: 30px;
 }
 
@@ -97,8 +100,8 @@
     width: auto;
     max-height: 400px;
     max-width: 400px;
-    min-height: 350px ;
-    min-width:350px ;
+    min-height: 350px;
+    min-width: 350px;
     background-position: center;
   }
 
@@ -162,5 +165,10 @@
     z-index: 100;
   }
 
+  .services_card:hover {
+    transform: none; /* Removes any scaling */
+    transition: none; /* Disables all transitions */
+    cursor: default; /* Changes cursor back to default */
+  }
 
 }
